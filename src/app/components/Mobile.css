@@ -1,0 +1,62 @@
+.phone-item img {
+    height: 100px;
+}
+
+.phone-item {
+    margin: 5px;
+    padding: 5px;
+    min-width: 350px;
+}
+
+.phone-item:hover {
+    cursor: pointer;
+    border: grey 1px solid;
+}
+
+.phone-list {
+    margin: 10px;
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+}
+
+.description {
+    align-self: center;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn button {
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: #f55c7b;
+}
+
+.phone-details img {
+    height: 300px;
+}
+
+.phone-details {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 700px) {
+    .phone-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .image {
+        width: auto;
+    }
+}
