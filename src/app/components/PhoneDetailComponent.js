@@ -1,3 +1,4 @@
+// Core
 import React, { PureComponent } from 'react';
 
 export default class PhoneDetailComponent extends PureComponent {
