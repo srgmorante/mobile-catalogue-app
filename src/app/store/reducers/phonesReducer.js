@@ -1,4 +1,6 @@
+// Initial State
 import initialState from '../initialState/phonesInitialState'
+//Constants
 import * as types from '../../actions/phoneConstants'
 
 export default function phonesReducer (state = initialState, action) {

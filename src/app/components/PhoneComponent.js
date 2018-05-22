@@ -1,4 +1,6 @@
+// Core
 import React, { PureComponent } from 'react';
+// Styles
 import './Mobile.css'
 
 export default class PhoneComponent extends PureComponent {

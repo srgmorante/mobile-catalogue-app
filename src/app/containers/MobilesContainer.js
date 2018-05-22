@@ -30,7 +30,6 @@ const Loader = () => <div className="loader">Loading...</div>;
 
 export class MobilesContainer extends Component {
     state = {
-        view: 'list',
         selected: null
     };
     componentDidMount () {
@@ -42,10 +41,12 @@ export class MobilesContainer extends Component {
         }, 2000)
     }
 
+    // Function what change the view if there is a Phone selected
     changeViewHandler (selected) {
         this.setState({selected});
     };
 
+    // Function to renderize the correct component in each case
     generateView () {
         if (this.props.loading) {
             return <Loader/>
@@ -72,5 +73,5 @@ export class MobilesContainer extends Component {
         );
     }
 }
-
+// Exporting the container and use the connect High Order Component to connect the React Container with Redux Store.
 export default connect(mapStateToProps, mapDispatchToProps)(MobilesContainer)
