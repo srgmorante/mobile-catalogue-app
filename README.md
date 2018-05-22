@@ -1,6 +1,6 @@
 # Mobile Catalogue APP
 
-To run the Frontend, only needs to execute the next command on the project folder;
+To run the Frontend, only needs to execute the next command on the project folder (previous npm install).
 
 ```
 npm start 3001
