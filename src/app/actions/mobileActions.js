@@ -2,7 +2,8 @@
 import axios from "axios";
 // Constants
 import * as types from './phoneConstants';
-const GET_ALL_PHONES = 'http://localhost:3000/phones';
+// const GET_ALL_PHONES = 'http://localhost:3000/phones';
+const GET_ALL_PHONES = 'https://mobile-catalogue-api.herokuapp.com/phones';
 
 // Action creator to set the phones list to Reducer.
 function setPhoneListAction (list) {
