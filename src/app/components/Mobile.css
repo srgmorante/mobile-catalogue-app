@@ -14,11 +14,10 @@
 }
 
 .phone-list {
-    margin: 10px;
-    width: calc(100% - 20px);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px 15px;
 }
 
 .image {
